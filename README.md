@@ -6,6 +6,14 @@
 
 English | [简体中文](README_zh-CN.md)
 
+在ＪＥＴＳＯＮ上部推理功能
+安装torch1.6 python36 torchvision 
+pip3 install --upgrade pip
+pip3 install opencv-python
+pip install mmcv-full==1.0.5 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.6.0/index.html
+pip install "git+https://github.com/open-mmlab/cocoapi.git#subdirectory=pycocotools"
+pip install -r requ../build.txt
+pip install -v -e .
 ## Introduction
 
 MMCV is a foundational library for computer vision research and supports many
